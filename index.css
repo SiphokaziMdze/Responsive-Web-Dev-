@@ -1,0 +1,67 @@
+:root{
+    --primary-color: rgb(88, 88, 240);
+    --secondary-color: rgb(241, 230, 230);
+    --main-text-align: center;
+}
+
+body{
+    margin: 60px auto;
+    max-width: 800px;
+    text-align: var(--main-text-align);
+    
+}
+
+h1{
+    font-size: 55px;
+    text-align: var(--main-text-align);
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(85, 85, 85);
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+
+}
+
+.about, .contact{
+    text-align: var(--main-text-align);
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.about{
+    background-color: rgb(85, 62, 107);
+    color: white;
+}
+
+.contact{
+    border-color: rgb(85, 62, 107);
+}
+
+pre{
+    color: black;
+    font-size: small;
+    font-weight: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 5px 5px rgb(196, 190, 190);
+    background-color: var(--secondary-color);
+    line-height: 1.5;
+    text-align: var(--main-text-align);
+}
+
+div{
+    font-size: 30px;
+}
+
+.contact-me{
+    font-size: 15px;
+    text-align: var(--main-text-align);
+}
