@@ -46,15 +46,25 @@ h3{
     border-color: rgb(85, 62, 107);
 }
 
-pre{
+.about-me{
     color: black;
-    font-size: small;
+    font-size: large;
     font-weight: 300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 0 5px 5px rgb(196, 190, 190);
     background-color: var(--secondary-color);
     line-height: 1.5;
     text-align: var(--main-text-align);
+}
+
+.about-app{
+    color: black;
+    font-size: 15px;
+    font-weight: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 5px 5px rgb(196, 190, 190);
+    background-color: rgb(241, 228, 228);
+   
 }
 
 div{
