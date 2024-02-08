@@ -1,14 +1,15 @@
 :root{
     --primary-color: rgb(88, 88, 240);
     --secondary-color: rgb(241, 230, 230);
-    --main-text-align: center;
+    
 }
 
 body{
-    margin: 60px auto;
-    max-width: 800px;
-    text-align: var(--main-text-align);
-    
+    font-size: 10px;
+}
+
+nav{
+    font-size: 10px;
 }
 
 h1{
@@ -68,7 +69,8 @@ h3{
 }
 
 div{
-    font-size: 30px;
+    font-size: 20px;
+    display: block;
 }
 
 .contact-me{
