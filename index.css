@@ -1,7 +1,7 @@
 :root{
     --primary-color: rgb(88, 88, 240);
     --secondary-color: rgb(241, 230, 230);
-    
+    --main-text-align: center;
 }
 
 body{
@@ -13,13 +13,19 @@ nav{
 }
 
 h1{
-    font-size: 55px;
+    font-size: 45px;
     text-align: var(--main-text-align);
 }
 
-h3{
-    font-size: 40px;
+h2{
+    font-size: 30px;
     color: rgb(85, 85, 85);
+    text-align: var(--main-text-align);
+}
+
+p{
+    font-size: 20px;
+    text-align: var(--main-text-align);
 }
 
 .links{
